@@ -1,6 +1,5 @@
-import { sql } from '@vercel/postgres'
 import { Resend } from 'resend'
-import { ensureTable } from './_db'
+import { ensureTable, getPool } from './_db'
 
 interface ReferenceBody {
   name: string
@@ -37,7 +36,8 @@ export async function POST(req: Request): Promise<Response> {
 
   try {
     await ensureTable()
-    await sql`
+    const db = getPool()
+    await db.sql`
       INSERT INTO references_submissions (name, relationship, company, email, phone, message)
       VALUES (${name}, ${relationship}, ${company}, ${email}, ${phone}, ${message})
     `

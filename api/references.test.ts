@@ -1,8 +1,12 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 
-vi.mock('./_db', () => ({ ensureTable: vi.fn() }))
+const mockSql = vi.fn().mockResolvedValue({ rows: [] })
+vi.mock('./_db', () => ({
+  ensureTable: vi.fn(),
+  getPool: vi.fn().mockReturnValue({ sql: mockSql }),
+}))
 vi.mock('@vercel/postgres', () => ({
-  sql: vi.fn().mockResolvedValue({ rows: [] }),
+  createPool: vi.fn().mockReturnValue({ sql: mockSql }),
 }))
 vi.mock('resend', () => ({
   Resend: vi.fn().mockImplementation(function () {
