@@ -1,0 +1,23 @@
+.achievements__item {
+  display: flex;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.achievements__icon {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--color-accent);
+}
+
+.achievements__title {
+  font-weight: 600;
+  font-size: var(--font-size-base);
+  margin-bottom: var(--space-xs);
+  color: var(--color-white);
+}
+
+.achievements__desc {
+  color: var(--color-sidebar-muted);
+  line-height: 1.5;
+}

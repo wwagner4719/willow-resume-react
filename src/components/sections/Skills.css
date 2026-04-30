@@ -1,0 +1,17 @@
+.skills__group {
+  margin-bottom: var(--space-md);
+}
+
+.skills__group-name {
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  margin-bottom: var(--space-xs);
+  letter-spacing: 0.5px;
+}
+
+.skills__list {
+  color: var(--color-sidebar-muted);
+  line-height: 1.7;
+  font-size: var(--font-size-sm);
+}
