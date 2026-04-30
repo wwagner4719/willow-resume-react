@@ -9,6 +9,7 @@ import Skills from './components/sections/Skills'
 import PetProjects from './components/sections/PetProjects'
 import RecentCourses from './components/sections/RecentCourses'
 import DownloadButton from './components/DownloadButton'
+import ReferencesForm from './components/ReferencesForm'
 
 export default function App() {
   const resumeRef = useRef<HTMLDivElement>(null)
@@ -31,6 +32,7 @@ export default function App() {
               <Skills />
               <PetProjects />
               <RecentCourses />
+              <ReferencesForm />
             </>
           }
         />
