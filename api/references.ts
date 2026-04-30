@@ -1,5 +1,5 @@
 import { Resend } from 'resend'
-import { ensureTable, getPool } from './_db'
+import { ensureTable, getPool } from './_db.js'
 
 interface ReferenceBody {
   name: string
