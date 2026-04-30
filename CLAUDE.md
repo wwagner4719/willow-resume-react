@@ -6,12 +6,32 @@
 
 ---
 
+## Context Files
+
+| File | Purpose | Auto-loads? |
+|---|---|---|
+| `~/.claude/CLAUDE.md` (Global) | Portable user rules | Yes |
+| `CLAUDE.md` (Project, this file) | Project-specific behavior | Yes |
+| `SECURITY.md` | Mandatory security rules | **No — read on demand** |
+| `PRD.md` | WHAT + WHY (requirements, "done") | **No — read at task start** |
+| `README.md` | How to install and run | No |
+
+---
+
 ## About This Project
 
 - **Name**: CheckIn
 - **Type**: Web app (client-facing + coach admin view)
 - **Primary Tech**: Angular + .NET Web API (Clean Architecture) + SQL Server + Azure
 - **Key Purpose**: Lets coaching clients log weekly check-ins and view their own progress trends; gives coaches a single view of all client activity between sessions
+
+---
+
+## Security
+
+Full rules in [`SECURITY.md`](SECURITY.md). Read it before writing any code that handles secrets, user input, authentication, authorization, database queries, or external service calls.
+
+**Non-negotiable baseline:** Never hardcode secrets — use environment variables only. Never log tokens or PII.
 
 ---
 
@@ -22,6 +42,8 @@
 - Every query must scope by both `CoachId` and `ClientId` — never return data across tenants
 - Check-in questions have three types only: `NumericScale`, `YesNo`, `Freeform` — never add new types without updating the PRD
 - Question edits create a new version; never mutate historical responses
+- **Testing**: Unit tests for Application layer use cases; integration tests for API endpoints
+- **Branches**: `feature/*`, `bugfix/*`, `hotfix/*`
 - *Add more rules here as the project evolves.*
 
 ---
@@ -29,6 +51,7 @@
 ## Before Any Feature Work — Read These First
 
 - **`PRD.md`** — WHAT and WHY. Confirm the goal and done checklist before touching code.
+- **`SECURITY.md`** — mandatory security rules. Read before writing any auth, input, or data-handling code.
 
 If either file is missing or stale, run `/kickoff` to regenerate them.
 
@@ -36,7 +59,8 @@ If either file is missing or stale, run `/kickoff` to regenerate them.
 
 ## Critical Files (Ask Before Modifying)
 
-- TBD — add files that are high-risk or load-bearing as the project grows (e.g., EF Core migrations, `Program.cs`, `app.module.ts`)
+- `Program.cs`, EF Core migrations, `appsettings.json`, Angular `app.module.ts`
+- Add more as the project grows.
 
 ---
 
@@ -53,4 +77,6 @@ A task is done when all of these hold:
 ## What Does NOT Belong in This File
 
 - Feature specs, requirements, success metrics → **`PRD.md`**
+- Full security rules → **`SECURITY.md`**
+- Install / run instructions → **`README.md`**
 - Personal preferences → **`~/.claude/CLAUDE.md`**
