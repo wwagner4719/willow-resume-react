@@ -22,7 +22,7 @@ function validate(body: Partial<ReferenceBody>): string | null {
 export async function POST(req: Request): Promise<Response> {
   let body: Partial<ReferenceBody>
   try {
-    body = await req.json()
+    body = await req.json() as Partial<ReferenceBody>
   } catch {
     return Response.json({ error: 'Invalid JSON' }, { status: 400 })
   }
