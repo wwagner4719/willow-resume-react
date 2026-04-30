@@ -1,0 +1,26 @@
+.download-btn {
+  position: fixed;
+  bottom: var(--space-xl);
+  right: var(--space-xl);
+  background: var(--color-accent);
+  color: var(--color-white);
+  border: none;
+  border-radius: 4px;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: background 0.15s;
+  z-index: 100;
+}
+
+.download-btn:hover {
+  background: #3a7fc4;
+}
+
+@media print {
+  .download-btn {
+    display: none;
+  }
+}
