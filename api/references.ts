@@ -1,5 +1,5 @@
 import { Resend } from 'resend'
-import { ensureTable, getPool } from './_db.js'
+import { insertReference } from './_db.js'
 
 interface ReferenceBody {
   name: string
@@ -35,13 +35,13 @@ export async function POST(req: Request): Promise<Response> {
   const { name, relationship, company, email, phone = '', message } = body as ReferenceBody
 
   try {
-    await ensureTable()
-    const db = getPool()
-    await db.sql`
-      INSERT INTO references_submissions (name, relationship, company, email, phone, message)
-      VALUES (${name}, ${relationship}, ${company}, ${email}, ${phone}, ${message})
-    `
+    await insertReference({ name, relationship, company, email, phone, message })
+  } catch (err) {
+    console.error('DB error:', err)
+    return Response.json({ error: 'Internal server error' }, { status: 500 })
+  }
 
+  try {
     const resend = new Resend(process.env.RESEND_API_KEY)
     await resend.emails.send({
       from: 'onboarding@resend.dev',
@@ -58,10 +58,10 @@ export async function POST(req: Request): Promise<Response> {
         <p>${message}</p>
       `,
     })
-
-    return Response.json({ success: true }, { status: 200 })
   } catch (err) {
-    console.error('Reference submission error:', err)
+    console.error('Email error:', err)
     return Response.json({ error: 'Internal server error' }, { status: 500 })
   }
+
+  return Response.json({ success: true }, { status: 200 })
 }

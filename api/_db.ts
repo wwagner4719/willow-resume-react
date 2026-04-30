@@ -1,21 +1,29 @@
-import { createPool } from '@vercel/postgres'
-
-export function getPool() {
-  return createPool({ connectionString: process.env.RESUME_POSTGRES_URL })
+export interface ReferenceRow {
+  name: string
+  relationship: string
+  company: string
+  email: string
+  phone: string
+  message: string
 }
 
-export async function ensureTable() {
-  const db = getPool()
-  await db.sql`
-    CREATE TABLE IF NOT EXISTS references_submissions (
-      id SERIAL PRIMARY KEY,
-      name TEXT NOT NULL,
-      relationship TEXT NOT NULL,
-      company TEXT NOT NULL,
-      email TEXT NOT NULL,
-      phone TEXT,
-      message TEXT NOT NULL,
-      submitted_at TIMESTAMPTZ DEFAULT NOW()
-    )
-  `
+export async function insertReference(row: ReferenceRow): Promise<void> {
+  const url = `${process.env.RESUME_SUPABASE_URL}/rest/v1/references_submissions`
+  const key = process.env.RESUME_SUPABASE_SERVICE_ROLE_KEY!
+
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${key}`,
+      'apikey': key,
+      'Prefer': 'return=minimal',
+    },
+    body: JSON.stringify(row),
+  })
+
+  if (!res.ok) {
+    const body = await res.text()
+    throw new Error(`DB insert failed (${res.status}): ${body}`)
+  }
 }
