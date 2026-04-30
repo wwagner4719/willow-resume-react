@@ -1,3 +1,4 @@
+import { usePDF } from 'react-to-pdf'
 import TwoColumnLayout from './components/layout/TwoColumnLayout'
 import Header from './components/Header'
 import Experience from './components/sections/Experience'
@@ -11,28 +12,32 @@ import DownloadButton from './components/DownloadButton'
 import ReferencesForm from './components/ReferencesForm'
 
 export default function App() {
+  const { toPDF, targetRef } = usePDF({ filename: 'WillowWagner_Resume.pdf' })
+
   return (
     <>
-      <TwoColumnLayout
-        main={
-          <>
-            <Header />
-            <Experience />
-            <Education />
-          </>
-        }
-        sidebar={
-          <>
-            <Summary />
-            <Achievements />
-            <Skills />
-            <PetProjects />
-            <RecentCourses />
-            <ReferencesForm />
-          </>
-        }
-      />
-      <DownloadButton />
+      <div ref={targetRef}>
+        <TwoColumnLayout
+          main={
+            <>
+              <Header />
+              <Experience />
+              <Education />
+            </>
+          }
+          sidebar={
+            <>
+              <Summary />
+              <Achievements />
+              <Skills />
+              <PetProjects />
+              <RecentCourses />
+              <ReferencesForm />
+            </>
+          }
+        />
+      </div>
+      <DownloadButton onDownload={toPDF} />
     </>
   )
 }

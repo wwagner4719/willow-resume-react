@@ -1,13 +1,14 @@
-import { usePDF } from 'react-to-pdf'
 import './DownloadButton.css'
 
-export default function DownloadButton() {
-  const { toPDF } = usePDF({ filename: 'WillowWagner_Resume.pdf' })
+interface Props {
+  onDownload: () => void
+}
 
+export default function DownloadButton({ onDownload }: Props) {
   return (
     <button
       className="download-btn"
-      onClick={() => toPDF()}
+      onClick={onDownload}
       aria-label="Download resume as PDF"
     >
       Download PDF
