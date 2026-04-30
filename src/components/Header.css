@@ -1,0 +1,36 @@
+.header {
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--color-divider-main);
+}
+
+.header__name {
+  font-size: var(--font-size-name);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--color-text);
+  text-transform: uppercase;
+}
+
+.header__title {
+  font-size: var(--font-size-xl);
+  color: var(--color-accent);
+  font-weight: 400;
+  margin-bottom: var(--space-md);
+}
+
+.header__contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-lg);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+}
+
+.header__contact a {
+  color: var(--color-text-light);
+}
+
+.header__contact a:hover {
+  color: var(--color-accent);
+}

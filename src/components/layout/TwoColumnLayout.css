@@ -1,0 +1,27 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  box-shadow: 0 0 40px rgba(0,0,0,0.12);
+}
+
+.layout__main {
+  width: var(--main-width);
+  padding: var(--space-xl);
+  background: var(--color-bg);
+}
+
+.layout__sidebar {
+  width: var(--sidebar-width);
+  padding: var(--space-xl) var(--space-lg);
+  background: var(--color-navy);
+  color: var(--color-sidebar-text);
+}
+
+@media print {
+  .layout {
+    box-shadow: none;
+    max-width: 100%;
+  }
+}
