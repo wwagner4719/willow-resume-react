@@ -1,11 +1,7 @@
 import { usePDF } from 'react-to-pdf'
 import './DownloadButton.css'
 
-interface Props {
-  targetRef: React.RefObject<HTMLElement | null>
-}
-
-export default function DownloadButton({ targetRef }: Props) {
+export default function DownloadButton() {
   const { toPDF } = usePDF({ filename: 'WillowWagner_Resume.pdf' })
 
   return (

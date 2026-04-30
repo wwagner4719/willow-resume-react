@@ -1,4 +1,3 @@
-import { useRef } from 'react'
 import TwoColumnLayout from './components/layout/TwoColumnLayout'
 import Header from './components/Header'
 import Experience from './components/sections/Experience'
@@ -12,32 +11,28 @@ import DownloadButton from './components/DownloadButton'
 import ReferencesForm from './components/ReferencesForm'
 
 export default function App() {
-  const resumeRef = useRef<HTMLDivElement>(null)
-
   return (
     <>
-      <div ref={resumeRef}>
-        <TwoColumnLayout
-          main={
-            <>
-              <Header />
-              <Experience />
-              <Education />
-            </>
-          }
-          sidebar={
-            <>
-              <Summary />
-              <Achievements />
-              <Skills />
-              <PetProjects />
-              <RecentCourses />
-              <ReferencesForm />
-            </>
-          }
-        />
-      </div>
-      <DownloadButton targetRef={resumeRef} />
+      <TwoColumnLayout
+        main={
+          <>
+            <Header />
+            <Experience />
+            <Education />
+          </>
+        }
+        sidebar={
+          <>
+            <Summary />
+            <Achievements />
+            <Skills />
+            <PetProjects />
+            <RecentCourses />
+            <ReferencesForm />
+          </>
+        }
+      />
+      <DownloadButton />
     </>
   )
 }
