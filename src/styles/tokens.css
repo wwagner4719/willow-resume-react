@@ -1,0 +1,35 @@
+:root {
+  /* Colors */
+  --color-navy: #1B2A44;
+  --color-navy-dark: #152135;
+  --color-accent: #4A8FD4;
+  --color-text: #2C2C2C;
+  --color-text-light: #555;
+  --color-white: #ffffff;
+  --color-bg: #ffffff;
+  --color-sidebar-text: rgba(255, 255, 255, 0.9);
+  --color-sidebar-muted: rgba(255, 255, 255, 0.65);
+  --color-divider: rgba(255, 255, 255, 0.2);
+  --color-divider-main: #e0e0e0;
+
+  /* Layout */
+  --sidebar-width: 35%;
+  --main-width: 65%;
+  --page-max-width: 1100px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  /* Typography */
+  --font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-size-base: 13px;
+  --font-size-sm: 11px;
+  --font-size-lg: 15px;
+  --font-size-xl: 20px;
+  --font-size-name: 36px;
+  --line-height: 1.5;
+}
