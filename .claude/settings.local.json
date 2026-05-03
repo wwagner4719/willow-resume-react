@@ -19,7 +19,9 @@
       "Bash(git remote *)",
       "Bash(git checkout *)",
       "Bash(git merge *)",
-      "Bash(npm list *)"
+      "Bash(npm list *)",
+      "Skill(deploy)",
+      "mcp__plugin_vercel_vercel__list_deployments"
     ]
   }
 }
