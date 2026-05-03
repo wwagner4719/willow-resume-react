@@ -146,5 +146,8 @@ export const petProjects = [
 export const recentCourses = [{
   title:'MCP Servers Made Easy with Python and OpenAI Agents',
   link: mcpCertPdf
+},
+{
+  title:'Vibe Coding Claude Code Workshop'
 }
 ]
