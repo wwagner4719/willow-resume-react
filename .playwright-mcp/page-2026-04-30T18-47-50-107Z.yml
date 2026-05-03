@@ -1,0 +1,151 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - main [ref=e4]:
+      - generic [ref=e5]:
+        - heading "Willow Ian Wagner" [level=1] [ref=e6]
+        - paragraph [ref=e7]: Senior Web Developer
+        - generic [ref=e8]:
+          - generic [ref=e9]: +1 (248) 396-5511
+          - link "willow.wagner@gmail.com" [ref=e10] [cursor=pointer]:
+            - /url: mailto:willow.wagner@gmail.com
+          - link "LinkedIn" [ref=e11] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/willowwagner/
+          - link "GitHub" [ref=e12] [cursor=pointer]:
+            - /url: https://github.com/wwagner4719
+          - generic [ref=e13]: Auburn Hills, MI
+      - generic [ref=e14]:
+        - heading "Experience" [level=2] [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: Senior Web Developer
+            - generic [ref=e19]: 08/2018 – 02/2026
+          - generic [ref=e20]: Lux Interactive Troy, MI
+          - list [ref=e21]:
+            - listitem [ref=e22]: Worked on a CPA Course sales & compliance tracking system using Sitefinity, MVC, and JavaScript
+            - listitem [ref=e23]: Worked on the Delta Museum site redesign and widgets using Sitefinity, MVC, JavaScript
+            - listitem [ref=e24]: Took front-end Lead on an HR/Payroll Management System using React, Redux
+            - listitem [ref=e25]: Optimized Third-Party Flight Software API Logic for Navitaire APIS using Java and IntelliJ IDEA
+            - listitem [ref=e26]: Worked on a Hotel Customer Management System using React, Redux, Next.js
+            - listitem [ref=e27]: Worked on a Passenger Flight Management System using Angular, NgRx, and .NET
+            - listitem [ref=e28]: Built and supported an Environmental Auditing System using Angular, NgRx
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: Senior Web Developer
+            - generic [ref=e32]: 08/2016 – 07/2018
+          - generic [ref=e33]: Spud Software Inc Grand Blanc, MI
+          - list [ref=e34]:
+            - listitem [ref=e35]: Built and supported a Time and Resource Management System using .NET MVC
+            - listitem [ref=e36]: Worked on an Automotive Inventory Tool using Angular.js and .NET
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: Web Developer
+            - generic [ref=e40]: 07/2015 – 08/2016
+          - generic [ref=e41]: Statclash Inc Troy, MI
+          - list [ref=e42]:
+            - listitem [ref=e43]: Developed new functionality for a Daily Fantasy Sports web application using MVC4, Razor, and HTML5
+            - listitem [ref=e44]: Implemented MVVM using Knockout.js for the client-side model and C# on the server side
+            - listitem [ref=e45]: Took lead on all UI/UX for site layout and styling for complete site rebrand/redesign
+            - listitem [ref=e46]: Assisted with middle tier/backend development for all new functionality
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: Web Developer
+            - generic [ref=e50]: 03/2014 – 06/2015
+          - generic [ref=e51]: Anthelio Healthcare Solutions Flint, MI
+          - list [ref=e52]:
+            - listitem [ref=e53]: Estimated, designed, implemented, and tested existing internal healthcare management web applications using ASP.NET 4.0/4.5 and MS SQL 2008/2012/2014
+            - listitem [ref=e54]: N-Tier development using Services, Interface, DTO, BLL, DAL, and stored procedures
+            - listitem [ref=e55]: Learned Lightswitch Silverlight and HTML5 client rapid development
+            - listitem [ref=e56]: Graphic creation and manipulation
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]: Web Developer
+            - generic [ref=e60]: 04/2010 – 03/2014
+          - generic [ref=e61]: QEK Global Solutions Bloomfield Hills, MI
+          - list [ref=e62]:
+            - listitem [ref=e63]: Helped in development of an asset management system, mainly for employee lease vehicles
+            - listitem [ref=e64]: Estimated, designed, implemented, and tested modules for an existing fleet management web application using Visual Basic, ASP.NET 4.0, and MS SQL 2008
+            - listitem [ref=e65]: All DAL and BLL objects using table adapters, datasets, and stored procedures
+            - listitem [ref=e66]: Improved web application and query performance to handle large numbers of users
+      - generic [ref=e67]:
+        - heading "Education" [level=2] [ref=e68]
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: Bachelor of IT Programming
+            - generic [ref=e72]: 03/2007 – 02/2008
+          - generic [ref=e73]: American Intercontinental University · Hoffman Estates, IL
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: Associate of Business Administration
+            - generic [ref=e77]: 02/2005 – 02/2007
+          - generic [ref=e78]: American Intercontinental University · Hoffman Estates, IL
+    - complementary [ref=e79]:
+      - generic [ref=e80]:
+        - heading "Summary" [level=2] [ref=e81]
+        - paragraph [ref=e82]: Full Stack Web Developer with over 15 years of experience developing web applications, looking for an opportunity to work with a team that will help me continue to push my development skills to the next level.
+      - generic [ref=e83]:
+        - heading "Key Achievements" [level=2] [ref=e84]
+        - generic [ref=e85]:
+          - generic [ref=e86]: ◆
+          - generic [ref=e87]:
+            - paragraph [ref=e88]: Enhanced Application Efficiency
+            - paragraph [ref=e89]: Implemented new functionalities increasing web application efficiency by 50% at Statclash Inc.
+        - generic [ref=e90]:
+          - generic [ref=e91]: ◆
+          - generic [ref=e92]:
+            - paragraph [ref=e93]: Scalable Architecture Design
+            - paragraph [ref=e94]: Developed scalable architecture supporting 10,000+ concurrent users for Fleet Management System.
+        - generic [ref=e95]:
+          - generic [ref=e96]: ◆
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Increased User Engagement
+            - paragraph [ref=e99]: Successfully redesigned UI/UX, boosting user engagement by 20% for Daily Fantasy Sports app.
+      - generic [ref=e100]:
+        - heading "Skills" [level=2] [ref=e101]
+        - generic [ref=e102]:
+          - paragraph [ref=e103]: Programming
+          - paragraph [ref=e104]: C# · VB · ASP.Net · MVC · Razor · T-SQL · Web API · XML · Bootstrap · JavaScript · TypeScript · HTML5 · CSS3 · jQuery · React · Redux · Angular · RxJS · NgRx · .NET · Entity Framework · Angular UI · Ionic · Some Java · Some Python
+        - generic [ref=e105]:
+          - paragraph [ref=e106]: Tools
+          - paragraph [ref=e107]: Visual Studio · VS Code · DevOps · CLI · IntelliJ IDEA · IIS · Telerik · Kendo UI · Material UI · Sitefinity · nopCommerce · Shopify
+        - generic [ref=e108]:
+          - paragraph [ref=e109]: Databases
+          - paragraph [ref=e110]: MS SQL Server · Relational DB Design
+        - generic [ref=e111]:
+          - paragraph [ref=e112]: Reporting Tools
+          - paragraph [ref=e113]: Telerik Reports · Crystal Reports
+        - generic [ref=e114]:
+          - paragraph [ref=e115]: Source Control
+          - paragraph [ref=e116]: DevOps · Team Explorer · GIT
+      - generic [ref=e117]:
+        - heading "Pet Projects" [level=2] [ref=e118]
+        - generic [ref=e119]:
+          - paragraph [ref=e120]: Ecommerce Projects
+          - paragraph [ref=e121]: 01/2023 – Present
+          - link "gnarlysidewalks.com" [ref=e122] [cursor=pointer]:
+            - /url: https://gnarlysidewalks.com
+          - paragraph [ref=e123]: Developed with Shopify
+      - generic [ref=e124]:
+        - heading "Recent Courses" [level=2] [ref=e125]
+        - paragraph [ref=e126]: MCP Servers Made Easy with Python and OpenAI Agents
+      - generic [ref=e127]:
+        - heading "Submit a Reference" [level=2] [ref=e128]
+        - generic [ref=e129]:
+          - generic [ref=e130]: Your Name *
+          - textbox "Your Name *" [ref=e131]
+        - generic [ref=e132]:
+          - generic [ref=e133]: Relationship to Willow *
+          - textbox "Relationship to Willow *" [ref=e134]
+        - generic [ref=e135]:
+          - generic [ref=e136]: Company *
+          - textbox "Company *" [ref=e137]
+        - generic [ref=e138]:
+          - generic [ref=e139]: Your Email *
+          - textbox "Your Email *" [ref=e140]
+        - generic [ref=e141]:
+          - generic [ref=e142]: Phone (optional)
+          - textbox "Phone (optional)" [ref=e143]
+        - generic [ref=e144]:
+          - generic [ref=e145]: Message *
+          - textbox "Message *" [ref=e146]
+        - button "Submit Reference" [ref=e147] [cursor=pointer]
+  - button "Download resume as PDF" [ref=e148] [cursor=pointer]: Download PDF

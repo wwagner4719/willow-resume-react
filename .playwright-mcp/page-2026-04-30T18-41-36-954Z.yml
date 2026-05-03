@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Open sidebar" [ref=e9] [cursor=pointer]:
+            - img [ref=e11]
+          - generic [ref=e15]:
+            - link "test-app" [ref=e16] [cursor=pointer]:
+              - /url: /willowwagner-4389s-projects/test-app
+              - generic [ref=e19]: test-app
+            - button [ref=e20] [cursor=pointer]:
+              - img [ref=e22]
+            - link "Back to team view" [ref=e26] [cursor=pointer]:
+              - /url: /willowwagner-4389s-projects/~/deployments
+              - img [ref=e28]
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - link "Deployments" [ref=e32] [cursor=pointer]:
+              - /url: /willowwagner-4389s-projects/test-app/deployments
+            - img [ref=e33]
+          - generic [ref=e36]: CzVXmfm3h
+        - button "Open page actions menu" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+      - generic [ref=e43]:
+        - generic [ref=e45]:
+          - link "Deployment" [ref=e46] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/CzVXmfm3hEJP7zq5JaBmjBfCSE3A
+          - link "Logs" [ref=e47] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/CzVXmfm3hEJP7zq5JaBmjBfCSE3A/logs
+          - link "Resources" [ref=e48] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/CzVXmfm3hEJP7zq5JaBmjBfCSE3A/resources
+          - link "Source" [ref=e49] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/CzVXmfm3hEJP7zq5JaBmjBfCSE3A/source
+          - link "Open Graph" [ref=e50] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/CzVXmfm3hEJP7zq5JaBmjBfCSE3A/og
+        - generic [ref=e51]:
+          - generic [ref=e53]:
+            - heading "Deployment Details" [level=3] [ref=e56]
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e68]: Created
+                - generic [ref=e72]: Status
+                - generic [ref=e76]: Duration
+                - generic [ref=e80]: Environment
+              - generic [ref=e84]: Domains
+              - generic [ref=e90]: Source
+            - button [disabled] [ref=e98] [cursor=pointer]
+          - generic [ref=e102]:
+            - heading [level=2] [ref=e104]
+            - heading [level=2] [ref=e106]
+            - heading [level=2] [ref=e108]

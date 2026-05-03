@@ -1,17 +1,15 @@
 import './DownloadButton.css'
+import resumePdf from '../assets/WillowIanWagnerResume.pdf'
 
-interface Props {
-  onDownload: () => void
-}
-
-export default function DownloadButton({ onDownload }: Props) {
+export default function DownloadButton() {
   return (
-    <button
+    <a
       className="download-btn"
-      onClick={onDownload}
+      href={resumePdf}
+      download="WillowIanWagnerResume.pdf"
       aria-label="Download resume as PDF"
     >
       Download PDF
-    </button>
+    </a>
   )
 }

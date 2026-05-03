@@ -1,4 +1,3 @@
-import { usePDF } from 'react-to-pdf'
 import TwoColumnLayout from './components/layout/TwoColumnLayout'
 import Header from './components/Header'
 import Experience from './components/sections/Experience'
@@ -13,11 +12,9 @@ import References from './components/sections/References'
 import ReferencesForm from './components/ReferencesForm'
 
 export default function App() {
-  const { toPDF, targetRef } = usePDF({ filename: 'WillowWagner_Resume.pdf' })
-
   return (
     <>
-      <div ref={targetRef}>
+      <div>
         <TwoColumnLayout
           main={
             <>
@@ -39,7 +36,7 @@ export default function App() {
           }
         />
       </div>
-      <DownloadButton onDownload={toPDF} />
+      <DownloadButton />
     </>
   )
 }

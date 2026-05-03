@@ -141,6 +141,8 @@ export const petProjects = [
   },
 ]
 
-export const recentCourses = [
-  'MCP Servers Made Easy with Python and OpenAI Agents',
+export const recentCourses = [{
+  title:'MCP Servers Made Easy with Python and OpenAI Agents',
+  link: '../src/assets/MCP_Servers_OpenAi_Certificate.pdf'
+}
 ]

@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git restore *)",
+      "Bash(npm install *)",
+      "Bash(npm test *)",
+      "Bash(npm run *)",
+      "Bash(kill %1)",
+      "Bash(wait)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(vercel *)",
+      "Bash(git push *)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "Bash(git config *)",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "Bash(curl *)",
+      "Bash(git remote *)",
+      "Bash(git checkout *)",
+      "Bash(git merge *)",
+      "Bash(npm list *)"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Open sidebar" [ref=e9] [cursor=pointer]:
+            - img [ref=e11]
+          - generic [ref=e15]:
+            - link "test-app" [ref=e16] [cursor=pointer]:
+              - /url: /willowwagner-4389s-projects/test-app
+              - generic [ref=e19]: test-app
+            - button [ref=e20] [cursor=pointer]:
+              - img [ref=e22]
+            - link "Back to team view" [ref=e26] [cursor=pointer]:
+              - /url: /willowwagner-4389s-projects/~/deployments
+              - img [ref=e28]
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - link "Deployments" [ref=e32] [cursor=pointer]:
+              - /url: /willowwagner-4389s-projects/test-app/deployments
+            - img [ref=e33]
+          - generic [ref=e36]: EsMp9Wkni
+        - button "Open page actions menu" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+      - generic [ref=e43]:
+        - generic [ref=e45]:
+          - link "Deployment" [ref=e46] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/EsMp9Wknigv3y72x7Bf6oVEXR5h6
+          - link "Logs" [ref=e47] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/EsMp9Wknigv3y72x7Bf6oVEXR5h6/logs
+          - link "Resources" [ref=e48] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/EsMp9Wknigv3y72x7Bf6oVEXR5h6/resources
+          - link "Source" [ref=e49] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/EsMp9Wknigv3y72x7Bf6oVEXR5h6/source
+          - link "Open Graph" [ref=e50] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app/EsMp9Wknigv3y72x7Bf6oVEXR5h6/og
+        - generic [ref=e51]:
+          - generic [ref=e53]:
+            - heading "Deployment Details" [level=3] [ref=e56]
+            - generic [ref=e58]:
+              - paragraph [ref=e62]: Loading…
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - generic [ref=e67]: Created
+                    - generic [ref=e68]:
+                      - img [ref=e73] [cursor=pointer]
+                      - generic [ref=e74]: Willow Wagner
+                      - generic [ref=e76]: Just now
+                  - generic [ref=e77]:
+                    - generic [ref=e78]: Status
+                    - generic "This deployment has been blocked." [ref=e79]:
+                      - generic [ref=e83]: Blocked
+                      - link "Latest" [ref=e84] [cursor=pointer]:
+                        - /url: /willowwagner-4389s-projects/test-app/deployments?filterBranch=feature%2Fresume-scaffold
+                  - generic [ref=e85]:
+                    - generic [ref=e86]: Duration
+                    - generic [ref=e87]:
+                      - img [ref=e88]
+                      - text: —
+                  - generic [ref=e91]: Environment
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Domains
+                  - generic [ref=e96]:
+                    - img [ref=e98]
+                    - link "test-app-git-feature-resume-298f1b-willowwagner-4389s-projects.vercel.app" [ref=e100] [cursor=pointer]:
+                      - /url: https://test-app-git-feature-resume-298f1b-willowwagner-4389s-projects.vercel.app
+                  - generic [ref=e101]:
+                    - img [ref=e103]
+                    - link "test-7hzng56hk-willowwagner-4389s-projects.vercel.app" [ref=e105] [cursor=pointer]:
+                      - /url: https://test-7hzng56hk-willowwagner-4389s-projects.vercel.app
+                - generic [ref=e106]:
+                  - generic [ref=e107]: Source
+                  - generic [ref=e108]:
+                    - img [ref=e109]
+                    - link "feature/resume-scaffold" [ref=e111] [cursor=pointer]:
+                      - /url: https://github.com/wwagner4719/test-app/tree/feature/resume-scaffold
+                  - generic [ref=e112]:
+                    - img [ref=e113]
+                    - 'link "50c893b chore: fix commit author email for Vercel deployment" [ref=e115] [cursor=pointer]':
+                      - /url: https://github.com/wwagner4719/test-app/commit/50c893b5cb041dead0398274505ce269e5794541
+                      - generic [ref=e116]: 50c893b
+                      - 'generic "chore: fix commit author email for Vercel deployment" [ref=e117]'
+            - button "Deployment Settings" [ref=e121] [cursor=pointer]:
+              - generic [ref=e122]:
+                - img [ref=e123]
+                - generic [ref=e126]: Deployment Settings
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - heading "Deployment Summary" [level=2] [ref=e130]:
+                - generic:
+                  - img
+                  - generic:
+                    - generic: Deployment Summary
+                  - generic:
+                    - img
+              - heading "Deployment Checks" [level=2] [ref=e132]:
+                - generic [ref=e133] [cursor=pointer]:
+                  - img [ref=e134]
+                  - generic [ref=e137]: Deployment Checks
+                  - img [ref=e139]
+              - heading "Assigning Custom Domains" [level=2] [ref=e142]:
+                - generic:
+                  - img
+                  - generic: Assigning Custom Domains
+                  - generic:
+                    - img
+            - generic [ref=e144]:
+              - link "Runtime Logs View and debug runtime logs & errors" [ref=e145] [cursor=pointer]:
+                - /url: /willowwagner-4389s-projects/test-app/logs
+                - img [ref=e147]
+                - generic [ref=e149]:
+                  - paragraph [ref=e151]: Runtime Logs
+                  - paragraph [ref=e152]: View and debug runtime logs & errors
+              - link "Observability Monitor app health & performance" [ref=e153] [cursor=pointer]:
+                - /url: /willowwagner-4389s-projects/test-app/observability/serverless-functions
+                - img [ref=e155]
+                - generic [ref=e157]:
+                  - paragraph [ref=e159]: Observability
+                  - paragraph [ref=e160]: Monitor app health & performance
+              - link "Speed Insights Not Enabled Performance metrics from real users" [ref=e161] [cursor=pointer]:
+                - /url: /willowwagner-4389s-projects/test-app/speed-insights
+                - img [ref=e163]
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - paragraph [ref=e167]: Speed Insights
+                    - generic [ref=e169]: Not Enabled
+                  - paragraph [ref=e170]: Performance metrics from real users
+              - link "Web Analytics Not Enabled Analyze visitors & traffic in real-time" [ref=e171] [cursor=pointer]:
+                - /url: /willowwagner-4389s-projects/test-app/analytics
+                - img [ref=e173]
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - paragraph [ref=e177]: Web Analytics
+                    - generic [ref=e179]: Not Enabled
+                  - paragraph [ref=e180]: Analyze visitors & traffic in real-time

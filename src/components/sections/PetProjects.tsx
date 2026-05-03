@@ -13,7 +13,7 @@ export default function PetProjects() {
             {p.start} – {p.end}
           </p>
           <a href={p.url} target="_blank" rel="noreferrer"
-            style={{ color: 'var(--color-accent)', fontSize: 'var(--font-size-sm)' }}>
+            style={{ color: 'var(--color-accent-light)', fontSize: 'var(--font-size-lg)' }}>
             {p.url.replace('https://', '')}
           </a>
           <p style={{ color: 'var(--color-sidebar-muted)', marginTop: 4 }}>{p.description}</p>

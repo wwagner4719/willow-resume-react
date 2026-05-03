@@ -1,0 +1,50 @@
+{
+  "hash": "bb0edd11",
+  "configHash": "6c537c27",
+  "lockfileHash": "9447c4fd",
+  "browserHash": "21e8905a",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "82a591c6",
+      "needsInterop": true
+    },
+    "react-to-pdf": {
+      "src": "../../node_modules/react-to-pdf/dist/index.mjs",
+      "file": "react-to-pdf.js",
+      "fileHash": "15ff752c",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "0c84561c",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "81c27372",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-CO3PsZeE": {
+      "file": "chunk-CO3PsZeE.js",
+      "isDynamicEntry": false
+    },
+    "index.es-NZnib5vk": {
+      "file": "index.es-NZnib5vk.js",
+      "isDynamicEntry": true
+    },
+    "purify.es-CeuFtsrq": {
+      "file": "purify.es-CeuFtsrq.js",
+      "isDynamicEntry": true
+    },
+    "typeof-BUrs08F6": {
+      "file": "typeof-BUrs08F6.js",
+      "isDynamicEntry": false
+    }
+  }
+}

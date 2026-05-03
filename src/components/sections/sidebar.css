@@ -1,7 +1,7 @@
 .sidebar-section {
   margin-bottom: var(--space-xl);
   color: var(--color-sidebar-text);
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-md);
 }
 
 .sidebar-section p {

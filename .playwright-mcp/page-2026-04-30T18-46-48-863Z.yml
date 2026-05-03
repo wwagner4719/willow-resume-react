@@ -1,0 +1,20 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Open sidebar" [ref=e9] [cursor=pointer]:
+          - img [ref=e11]
+        - generic [ref=e15]:
+          - link "test-app" [ref=e16] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/test-app
+            - generic [ref=e19]: test-app
+          - button [ref=e20] [cursor=pointer]:
+            - img [ref=e22]
+          - link "Back to team view" [ref=e26] [cursor=pointer]:
+            - /url: /willowwagner-4389s-projects/~/deployments
+            - img [ref=e28]
+      - generic [ref=e32]: Deployments
+      - button "Open page actions menu" [ref=e34] [cursor=pointer]:
+        - img [ref=e36]
