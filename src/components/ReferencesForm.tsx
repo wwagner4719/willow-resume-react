@@ -82,7 +82,7 @@ export default function ReferencesForm() {
 
       {[
         { label: 'Your Name', name: 'name', type: 'text', required: true },
-        { label: 'Relationship to Willow', name: 'relationship', type: 'text', required: true },
+        { label: 'Job Title/Relationship to Willow', name: 'relationship', type: 'text', required: true },
         { label: 'Company', name: 'company', type: 'text', required: true },
         { label: 'Your Email', name: 'email', type: 'email', required: true },
         { label: 'Phone (optional)', name: 'phone', type: 'tel', required: false },
