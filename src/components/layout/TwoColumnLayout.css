@@ -25,3 +25,18 @@
     max-width: 100%;
   }
 }
+
+@media (max-width: 500px) {
+  .layout__main {
+  width: 100%;;
+  padding: var(--space-xl);
+  background: var(--color-bg);
+}
+
+.layout__sidebar {
+  width: 100%;
+  padding: var(--space-xl) var(--space-lg);
+  background: var(--color-navy);
+  color: var(--color-sidebar-text);
+}
+}

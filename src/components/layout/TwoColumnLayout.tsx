@@ -7,7 +7,7 @@ interface Props {
 
 export default function TwoColumnLayout({ main, sidebar }: Props) {
   return (
-    <div className="layout">
+    <div className="layout d-flex flex-column flex-md-row ">
       <main className="layout__main">{main}</main>
       <aside className="layout__sidebar">{sidebar}</aside>
     </div>
