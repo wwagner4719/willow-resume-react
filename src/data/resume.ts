@@ -132,15 +132,13 @@ export const skills = {
     'C#', 'VB', 'ASP.Net', 'MVC', 'Razor', 'T-SQL', 'Web API', 'XML',
     'Bootstrap', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'jQuery',
     'React', 'Redux', 'Angular', 'RxJS', 'NgRx', '.NET', 'Entity Framework',
-    'Angular UI', 'Ionic', 'Some Java', 'Some Python',
+    'Angular UI', 'Ionic', 'Java', 'Python',
   ],
   Tools: [
-    'Visual Studio', 'VS Code', 'DevOps', 'CLI', 'IntelliJ IDEA', 'IIS',
-    'Telerik', 'Kendo UI', 'Material UI', 'Sitefinity', 'nopCommerce', 'Shopify',
+    'Visual Studio', 'VS Code', 'DevOps', 'CLI', 'Azure', 'IntelliJ IDEA', 'IIS',
+    'Telerik', 'Kendo UI', 'Material UI', 'Sitefinity', 'nopCommerce', 'Shopify, OpenAI, Claude Code, Vercel',
   ],
-  Databases: ['MS SQL Server', 'Relational DB Design'],
-  'Reporting Tools': ['Telerik Reports', 'Crystal Reports'],
-  'Source Control': ['DevOps', 'Team Explorer', 'GIT'],
+  Databases: ['MS SQL Server', 'Azure', 'Supabase', 'Relational DB Design'],
 }
 
 export const petProjects = [
