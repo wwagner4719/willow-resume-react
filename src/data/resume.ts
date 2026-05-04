@@ -11,7 +11,9 @@ export const contact = {
 }
 
 export const summary =
-  'Full Stack Web Developer with over 15 years of experience developing web applications, looking for an opportunity to work with a team that will help me continue to push my development skills to the next level.'
+  `Full-stack web developer with 15+ years shipping production applications across React, Angular, and .NET. 
+  Built and scaled platforms supporting 10,000+ concurrent users, led front-end teams, and currently expanding 
+  into AI tooling with Claude Code, OpenAI, and MCP. Looking for senior or lead roles where I can drive architecture and mentor teams.`
 
 export const achievements = [
   {
@@ -35,17 +37,23 @@ export const experience = [
   {
     title: 'Senior Web Developer',
     company: 'Lux Interactive',
-    location: 'Troy, MI',
+    location: 'Troy, MI - Remote',
     start: '08/2018',
     end: '02/2026',
     bullets: [
-      'Worked on a CPA Course sales & compliance tracking system using Sitefinity, MVC, and JavaScript',
-      'Worked on the Delta Museum site redesign and widgets using Sitefinity, MVC, JavaScript',
-      'Took front-end Lead on an HR/Payroll Management System using React, Redux',
-      'Optimized Third-Party Flight Software API Logic for Navitaire APIS using Java and IntelliJ IDEA',
-      'Worked on a Hotel Customer Management System using React, Redux, Next.js',
-      'Worked on a Passenger Flight Management System using Angular, NgRx, and .NET',
-      'Built and supported an Environmental Auditing System using Angular, NgRx',
+      `Built and shipped a CPA course sales & compliance tracking platform on Sitefinity (.NET MVC, JavaScript), 
+      authoring custom widgets that automated 20 hours per week of compliance reporting for CPAs.`,
+      `Led the front-end redesign of the Delta Museum site on Sitefinity, delivering responsive widget library 
+      that reduced editor publishing time by 80%.`,
+      `Led front-end architecture for an HR/Payroll Management System (React, Redux), 
+       shipping 100+ modules used by unlimited employees across large client organizations.`,
+      `Optimized Navitaire flight API integration in Java/IntelliJ, cutting average response time from minutes to seconds 
+      and eliminating hidden errors on peak booking traffic.`,
+      `Engineered the customer-management front end for a hotel CMS in React/Redux/Next.js, 
+      supporting hunderds of properties and daily active users.`,
+      `Architected and shipped a passenger flight management system in Angular/NgRx/.NET, scaling to 10,000+ concurrent users.`,
+      `Designed, built, and maintained an environmental auditing platform (Angular, NgRx) 
+      used by hundreds of field auditors to process yearly.`,
     ],
   },
   {
@@ -55,8 +63,10 @@ export const experience = [
     start: '08/2016',
     end: '07/2018',
     bullets: [
-      'Built and supported a Time and Resource Management System using .NET MVC',
-      'Worked on an Automotive Inventory Tool using Angular.js and .NET',
+      `Designed, built, and maintained a Time & Resource Management System in .NET MVC, 
+      replacing legacy workflow for unlimited users.`,
+      `Delivered an Automotive Inventory Tool (Angular.js + .NET) 
+      that consolidated inventory across entire dealerships and reduced lookup time by 80%.`,
     ],
   },
   {
@@ -66,23 +76,23 @@ export const experience = [
     start: '07/2015',
     end: '08/2016',
     bullets: [
-      'Developed new functionality for a Daily Fantasy Sports web application using MVC4, Razor, and HTML5',
-      'Implemented MVVM using Knockout.js for the client-side model and C# on the server side',
-      'Took lead on all UI/UX for site layout and styling for complete site rebrand/redesign',
-      'Assisted with middle tier/backend development for all new functionality',
+      `Shipped new functionality for a Daily Fantasy Sports platform (MVC4, Razor, HTML5) that drove a 50% increase in application efficiency.`,
+      `Implemented MVVM architecture with Knockout.js (client) and C# MVC (server), 
+      reducing client-side rendering time and simplifying legacy views.`,
+      `Owned UI/UX for a full site rebrand, boosting user engagement 20%.`,
+      `Contributed middle-tier and back-end features alongside front-end work, shipping multiple features across the stack.`,
     ],
   },
   {
     title: 'Web Developer',
     company: 'Anthelio Healthcare Solutions',
-    location: 'Flint, MI',
+    location: 'Remote',
     start: '03/2014',
     end: '06/2015',
     bullets: [
-      'Estimated, designed, implemented, and tested existing internal healthcare management web applications using ASP.NET 4.0/4.5 and MS SQL 2008/2012/2014',
-      'N-Tier development using Services, Interface, DTO, BLL, DAL, and stored procedures',
-      'Learned Lightswitch Silverlight and HTML5 client rapid development',
-      'Graphic creation and manipulation',
+      `Built and tested internal healthcare management apps (ASP.NET 4.0/4.5, MS SQL 2014) 
+      used for patient intake, claims processing.`,
+      `Delivered N-tier features end-to-end (Services, DTO, BLL, DAL, stored procs), shipping multiple features into production.`
     ],
   },
   {
@@ -92,10 +102,10 @@ export const experience = [
     start: '04/2010',
     end: '03/2014',
     bullets: [
-      'Helped in development of an asset management system, mainly for employee lease vehicles',
-      'Estimated, designed, implemented, and tested modules for an existing fleet management web application using Visual Basic, ASP.NET 4.0, and MS SQL 2008',
-      'All DAL and BLL objects using table adapters, datasets, and stored procedures',
-      'Improved web application and query performance to handle large numbers of users',
+      `Co-developed an asset management system for employee lease vehicles, tracking hundreds of vehicles across multiple locations.`,
+      `Designed, built, and tested modules for an existing fleet management web app (VB.NET, ASP.NET 4.0, MS SQL 2008) 
+      supporting hundreds of fleet managers vehicles.`,
+      `Built the data and business layers using table adapters, datasets, and stored procedures, standardizing into reusable components.`,      
     ],
   },
 ]

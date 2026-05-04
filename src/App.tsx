@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Experience from './components/sections/Experience'
 import Education from './components/sections/Education'
 import Summary from './components/sections/Summary'
-import Achievements from './components/sections/Achievements'
+//import Achievements from './components/sections/Achievements'
 import Skills from './components/sections/Skills'
 import PetProjects from './components/sections/PetProjects'
 import RecentCourses from './components/sections/RecentCourses'
@@ -26,7 +26,7 @@ export default function App() {
           sidebar={
             <>
               <Summary />
-              <Achievements />
+              {/* <Achievements /> */}
               <Skills />
               <PetProjects />
               <RecentCourses />
