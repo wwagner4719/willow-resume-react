@@ -1,6 +1,6 @@
 import { summary } from '../../data/resume'
 import SectionHeading from './SectionHeading'
-import profilePic from '../../assets/ResumePick1.jpeg'
+import profilePic from '../../assets/ResumePick2.jpeg'
 import './sidebar.css'
 
 export default function Summary() {
