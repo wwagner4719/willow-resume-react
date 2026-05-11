@@ -1,3 +1,5 @@
+import sql from 'mssql'
+
 export interface ReferenceRow {
   name: string
   relationship: string
@@ -7,23 +9,26 @@ export interface ReferenceRow {
   message: string
 }
 
-export async function insertReference(row: ReferenceRow): Promise<void> {
-  const url = `${process.env.RESUME_SUPABASE_URL}/rest/v1/references_submissions`
-  const key = process.env.RESUME_SUPABASE_SERVICE_ROLE_KEY!
+let pool: sql.ConnectionPool | null = null
 
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${key}`,
-      'apikey': key,
-      'Prefer': 'return=minimal',
-    },
-    body: JSON.stringify(row),
-  })
-
-  if (!res.ok) {
-    const body = await res.text()
-    throw new Error(`DB insert failed (${res.status}): ${body}`)
+async function getPool(): Promise<sql.ConnectionPool> {
+  if (!pool) {
+    pool = await new sql.ConnectionPool(process.env.AZURE_SQL_CONNECTION_STRING!).connect()
   }
+  return pool
+}
+
+export async function insertReference(row: ReferenceRow): Promise<void> {
+  const db = await getPool()
+  await db.request()
+    .input('name', sql.NVarChar(255), row.name)
+    .input('relationship', sql.NVarChar(255), row.relationship)
+    .input('company', sql.NVarChar(255), row.company)
+    .input('email', sql.NVarChar(255), row.email)
+    .input('phone', sql.NVarChar(50), row.phone)
+    .input('message', sql.NVarChar(sql.MAX), row.message)
+    .query(`
+      INSERT INTO references_submissions (name, relationship, company, email, phone, message)
+      VALUES (@name, @relationship, @company, @email, @phone, @message)
+    `)
 }
