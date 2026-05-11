@@ -1,18 +1,15 @@
+import { getPool } from './_db.js'
+
 export async function GET(): Promise<Response> {
-  const url = `${process.env.RESUME_SUPABASE_URL}/rest/v1/references_submissions?select=name,relationship,company,message,submitted_at&order=submitted_at.desc`
-  const key = process.env.RESUME_SUPABASE_SERVICE_ROLE_KEY!
-
-  const res = await fetch(url, {
-    headers: {
-      'Authorization': `Bearer ${key}`,
-      'apikey': key,
-    },
-  })
-
-  if (!res.ok) {
+  try {
+    const db = await getPool()
+    const result = await db.request().query(`
+      SELECT name, relationship, company, message, created_at
+      FROM references_submissions
+      ORDER BY created_at DESC
+    `)
+    return Response.json(result.recordset)
+  } catch {
     return Response.json([], { status: 200 })
   }
-
-  const data = await res.json()
-  return Response.json(data)
 }

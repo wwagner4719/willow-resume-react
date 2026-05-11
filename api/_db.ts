@@ -11,7 +11,7 @@ export interface ReferenceRow {
 
 let pool: sql.ConnectionPool | null = null
 
-async function getPool(): Promise<sql.ConnectionPool> {
+export async function getPool(): Promise<sql.ConnectionPool> {
   if (!pool) {
     pool = await new sql.ConnectionPool(process.env.AZURE_SQL_CONNECTION_STRING!).connect()
   }
