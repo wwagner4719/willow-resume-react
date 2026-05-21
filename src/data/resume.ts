@@ -35,80 +35,84 @@ export const achievements = [
 
 export const experience = [
   {
-    title: 'Senior Web Developer',
-    company: 'Lux Interactive',
-    location: 'Troy, MI - Remote',
-    start: '08/2018',
-    end: '02/2026',
+    title: "Senior Web Developer",
+    company: "Lux Interactive",
+    location: "Troy, MI - Remote",
+    start: "08/2018",
+    end: "02/2026",
     bullets: [
-      `Built and shipped a CPA course sales & compliance tracking platform on Sitefinity (.NET MVC, JavaScript), 
+      `Built and shipped a CPA course sales & compliance tracking platform on Sitefinity (.NET MVC,  Razor, JavaScript, Aptify), 
       authoring custom widgets that automated 20 hours per week of compliance reporting for CPAs.`,
-      `Led the front-end redesign of the Delta Museum site on Sitefinity, delivering responsive widget library 
-      that reduced editor publishing time by 80%.`,
+      `Led the front-end redesign of the Delta Museum site on Sitefinity (.NET MVC,
+       Razor, JavaScript), delivering responsive widget library that reduced editor
+       publishing time by 80%.`,
       `Led front-end architecture for an HR/Payroll Management System (React, Redux), 
        shipping 100+ modules used by unlimited employees across large client organizations.`,
       `Optimized Navitaire flight API integration in Java/IntelliJ, cutting average response time from minutes to seconds 
       and eliminating hidden errors on peak booking traffic.`,
       `Engineered the customer-management front end for a hotel CMS in React/Redux/Next.js, 
       supporting hunderds of properties and daily active users.`,
-      `Architected and shipped a passenger flight management system in Angular/NgRx/.NET, scaling to 10,000+ concurrent users.`,
-      `Designed, built, and maintained an environmental auditing platform (Angular, NgRx) 
+      `Architected and shipped a passenger flight management system (Angular,
+      NgRx, RxJS, .NET Core, MS SQL),  scaling to 10,000+ concurrent users.`,
+      `Designed, built, and maintained an environmental auditing platform (Angular,
+      NgRx, RxJS, .Net Core, MS SQL) 
       used by hundreds of field auditors to process yearly.`,
     ],
   },
   {
-    title: 'Senior Web Developer',
-    company: 'Spud Software Inc',
-    location: 'Grand Blanc, MI',
-    start: '08/2016',
-    end: '07/2018',
+    title: "Senior Web Developer",
+    company: "Spud Software Inc",
+    location: "Grand Blanc, MI",
+    start: "08/2016",
+    end: "07/2018",
     bullets: [
-      `Designed, built, and maintained a Time & Resource Management System in .NET MVC, 
+      `Designed, built, and maintained a Time & Resource Management System  (.NET
+       MVC, Razor, JavaScript, MS SQL) 
       replacing legacy workflow for unlimited users.`,
-      `Delivered an Automotive Inventory Tool (Angular.js + .NET) 
+      `Delivered an Automotive Inventory Tool (Angular.js, .NET Core, MS SQL) 
       that consolidated inventory across entire dealerships and reduced lookup time by 80%.`,
     ],
   },
   {
-    title: 'Web Developer',
-    company: 'Statclash Inc',
-    location: 'Troy, MI',
-    start: '07/2015',
-    end: '08/2016',
+    title: "Web Developer",
+    company: "Statclash Inc",
+    location: "Troy, MI",
+    start: "07/2015",
+    end: "08/2016",
     bullets: [
       `Shipped new functionality for a Daily Fantasy Sports platform (MVC4, Razor, HTML5) that drove a 50% increase in application efficiency.`,
-      `Implemented MVVM architecture with Knockout.js (client) and C# MVC (server), 
+      `Implemented MVVM architecture with Knockout.js (client) and C# MVC (server) and MS SQL (DB), 
       reducing client-side rendering time and simplifying legacy views.`,
       `Owned UI/UX for a full site rebrand, boosting user engagement 20%.`,
       `Contributed middle-tier and back-end features alongside front-end work, shipping multiple features across the stack.`,
     ],
   },
   {
-    title: 'Web Developer',
-    company: 'Anthelio Healthcare Solutions',
-    location: 'Remote',
-    start: '03/2014',
-    end: '06/2015',
+    title: "Web Developer",
+    company: "Anthelio Healthcare Solutions",
+    location: "Remote",
+    start: "03/2014",
+    end: "06/2015",
     bullets: [
       `Built and tested internal healthcare management apps (ASP.NET 4.0/4.5, MS SQL 2014) 
       used for patient intake, claims processing.`,
-      `Delivered N-tier features end-to-end (Services, DTO, BLL, DAL, stored procs), shipping multiple features into production.`
+      `Delivered N-tier features end-to-end (Services, DTO, BLL, DAL, stored procs), shipping multiple features into production.`,
     ],
   },
   {
-    title: 'Web Developer',
-    company: 'QEK Global Solutions',
-    location: 'Bloomfield Hills, MI',
-    start: '04/2010',
-    end: '03/2014',
+    title: "Web Developer",
+    company: "QEK Global Solutions",
+    location: "Bloomfield Hills, MI",
+    start: "04/2010",
+    end: "03/2014",
     bullets: [
       `Co-developed an asset management system for employee lease vehicles, tracking hundreds of vehicles across multiple locations.`,
       `Designed, built, and tested modules for an existing fleet management web app (VB.NET, ASP.NET 4.0, MS SQL 2008) 
       supporting hundreds of fleet managers vehicles.`,
-      `Built the data and business layers using table adapters, datasets, and stored procedures, standardizing into reusable components.`,      
+      `Built the data and business layers using table adapters, datasets, and stored procedures, standardizing into reusable components.`,
     ],
   },
-]
+];
 
 export const education = [
   {
@@ -130,26 +134,34 @@ export const education = [
 export const skills = {
   Programming: [
     'C#', 'VB', 'ASP.Net', 'MVC', 'Razor', 'T-SQL', 'Web API', 'XML',
-    'Bootstrap', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'jQuery',
+    'Bootstrap', 'JavaScript', 'TypeScript', 'Sass/SCSS', 'jQuery',
     'React', 'Redux', 'Angular', 'RxJS', 'NgRx', '.NET', 'Entity Framework',
     'Angular UI', 'Ionic', 'Java', 'Python',
   ],
   Tools: [
-    'Visual Studio', 'VS Code', 'DevOps', 'CLI', 'Azure', 'IntelliJ IDEA', 'IIS',
-    'Telerik', 'Kendo UI', 'Material UI', 'Sitefinity', 'nopCommerce', 'Shopify, OpenAI, Claude Code, Vercel',
+    'Visual Studio', 'VS Code', 'Azure App Service','Azure Blob Storage','GitHub', 'Git','Azure DevOps', 'Team Explorer', 'CLI', 'IntelliJ IDEA', 'IIS',
+    'Telerik', 'Telerik Charts', 'Kendo UI', 'Material UI', 'Sitefinity', 'nopCommerce', 'Shopify, OpenAI, Claude Code, Vercel',
   ],
-  Databases: ['MS SQL Server', 'Azure', 'Supabase', 'Relational DB Design'],
+  Databases: ['MS SQL Server', 'Azure SQL', 'Supabase PostgresSql', 'Relational DB Design'],
 }
 
 export const petProjects = [
   {
-    name: 'Ecommerce Projects',
-    url: 'https://gnarlysidewalks.com',
-    description: 'Developed with Shopify',
-    start: '01/2023',
-    end: 'Present',
+    name: "Online Dating",
+    url: "https://atachy.vercel.app",
+    description: `Developing with Claude Code,
+                  Angular 20, .Net 10`,
+    start: "05/2026",
+    end: "Present",
   },
-]
+  {
+    name: "Ecommerce Projects",
+    url: "https://gnarlysidewalks.com",
+    description: "Developed with Shopify",
+    start: "01/2023",
+    end: "Present",
+  },
+];
 
 export const recentCourses = [{
   title:'MCP Servers Made Easy with Python and OpenAI Agents',
