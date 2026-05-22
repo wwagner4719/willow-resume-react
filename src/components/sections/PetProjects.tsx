@@ -16,6 +16,10 @@ export default function PetProjects() {
             style={{ color: 'var(--color-accent-light)', fontSize: 'var(--font-size-lg)' }}>
             {p.url.replace('https://', '')}
           </a>
+           <a href={p.codeExampleUrl} target="_blank" rel="noreferrer"
+            style={{ color: 'var(--color-accent-light)', fontSize: 'var(--font-size-lg)' }}>
+            {p.codeExampleTitle?.replace('https://', '')}
+          </a>
           <p style={{ color: 'var(--color-sidebar-muted)', marginTop: 4 }}>{p.description}</p>
         </div>
       ))}

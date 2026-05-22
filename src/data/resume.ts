@@ -149,6 +149,8 @@ export const petProjects = [
   {
     name: "Online Dating",
     url: "https://atachy.vercel.app",
+    codeExampleTitle: "Code Example",
+    codeExampleUrl: "https://atachy.vercel.app",
     description: `Developing with Claude Code,
                   Angular 20, .Net 10`,
     start: "05/2026",
@@ -157,7 +159,7 @@ export const petProjects = [
   {
     name: "Ecommerce Projects",
     url: "https://gnarlysidewalks.com",
-    description: "Developed with Shopify",
+    description: "Developed with Shopify. All product images created with Midjourney",
     start: "01/2023",
     end: "Present",
   },
