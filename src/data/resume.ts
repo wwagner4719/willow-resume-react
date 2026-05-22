@@ -152,7 +152,7 @@ export const petProjects = [
     codeExampleTitle: "Code Example",
     codeExampleUrl: "https://atachy.vercel.app",
     description: `Developing with Claude Code,
-                  Angular 20, .Net 10`,
+                  Angular 20, .Net 10, Azure Resources`,
     start: "05/2026",
     end: "Present",
   },
