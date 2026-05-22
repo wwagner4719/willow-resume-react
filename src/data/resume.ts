@@ -149,7 +149,7 @@ export const petProjects = [
   {
     name: "Online Dating",
     url: "https://atachy.vercel.app",
-    codeExampleTitle: "Code Example",
+    codeExampleTitle: "Code Repo",
     codeExampleUrl: "https://atachy.vercel.app",
     description: `Developing with Claude Code,
                   Angular 20, .Net 10, Azure Resources`,
