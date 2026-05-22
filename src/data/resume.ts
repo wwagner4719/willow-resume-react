@@ -150,7 +150,7 @@ export const petProjects = [
     name: "Online Dating",
     url: "https://atachy.vercel.app",
     codeExampleTitle: "Code Repo",
-    codeExampleUrl: "https://atachy.vercel.app",
+    codeExampleUrl: "https://gitfront.io/r/wwagner4719/Q4FskcpvpNVY/Atachy/",
     description: `Developing with Claude Code,
                   Angular 20, .Net 10, Azure Resources`,
     start: "05/2026",
