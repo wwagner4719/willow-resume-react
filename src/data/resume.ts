@@ -57,6 +57,9 @@ export const experience = [
       (responsive widget library that cut editor publishing time by 80%) and designed an
       environmental auditing platform (Angular, NgRx, .NET Core, MS SQL) used by hundreds of
       field auditors to process thousands of compliance audits annually.`,
+      `Learned Java and IntelliJ on the job to work on a clients project, researching and optimizing Navitaire 
+      flight API integration, cutting average response time from minutes to seconds and eliminating 
+      hidden errors on peak booking traffic.`,
     ],
   },
   {
@@ -169,7 +172,7 @@ export const skills = {
     "Git",
     "Azure DevOps",
     "Team Explorer",
-    "CLI",    
+    "CLI",
     "IIS",
     "Telerik",
     "Telerik Charts",
@@ -178,7 +181,7 @@ export const skills = {
     "Sitefinity",
     "nopCommerce",
     "Shopify, OpenAI,  Vercel",
-    "IntelliJ IDEA"
+    "IntelliJ IDEA",
   ],
   Databases: [
     "MS SQL Server",
