@@ -1,62 +1,62 @@
-import mcpCertPdf from '../assets/MCP_Servers_OpenAi_Certificate.pdf'
+import mcpCertPdf from "../assets/MCP_Servers_OpenAi_Certificate.pdf";
 
 export const contact = {
-  name: 'Willow Ian Wagner',
-  title: 'Senior Web Developer',
-  phone: '+1 (248) 396-5511',
-  email: 'willow.wagner@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/willowwagner/',
-  github: 'https://github.com/wwagner4719',
-  location: 'Auburn Hills, MI',
-}
+  name: "Willow Ian Wagner",
+  title: "Senior Web Developer",
+  phone: "+1 (248) 396-5511",
+  email: "willow.wagner@gmail.com",
+  linkedin: "https://www.linkedin.com/in/willowwagner/",
+  github: "https://github.com/wwagner4719",
+  location: "Auburn Hills, MI",
+};
 
-export const summary =
-  `Full-stack web developer with 15+ years shipping production applications across React, Angular, and .NET. 
-  Built and scaled platforms supporting 10,000+ concurrent users, led front-end teams, and currently expanding 
-  into AI tooling with Claude Code, OpenAI, and MCP. Looking for senior or lead roles where I can drive architecture and mentor teams.`
+export const summary = `Full-stack web developer with 15+ years shipping production applications across React,
+Angular, and .NET Core. Architected platforms scaling to 10,000+ concurrent users, led
+front-end teams across multi-year engagements, and now building AI-integrated workflows
+with Claude Code, OpenAI, and MCP. Seeking senior or lead roles where I can own
+architecture decisions and grow engineering teams.`;
 
 export const achievements = [
   {
-    title: 'Enhanced Application Efficiency',
+    title: "Enhanced Application Efficiency",
     description:
-      'Implemented new functionalities increasing web application efficiency by 50% at Statclash Inc.',
+      "Implemented new functionalities increasing web application efficiency by 50% at Statclash Inc.",
   },
   {
-    title: 'Scalable Architecture Design',
+    title: "Scalable Architecture Design",
     description:
-      'Developed scalable architecture supporting 10,000+ concurrent users for Fleet Management System.',
+      "Developed scalable architecture supporting 10,000+ concurrent users for Fleet Management System.",
   },
   {
-    title: 'Increased User Engagement',
+    title: "Increased User Engagement",
     description:
-      'Successfully redesigned UI/UX, boosting user engagement by 20% for Daily Fantasy Sports app.',
+      "Successfully redesigned UI/UX, boosting user engagement by 20% for Daily Fantasy Sports app.",
   },
-]
+];
 
 export const experience = [
   {
-    title: "Senior Web Developer",
+    title: "Lead Front-End Developer",
     company: "Lux Interactive",
     location: "Troy, MI - Remote",
     start: "08/2018",
     end: "02/2026",
     bullets: [
-      `Built and shipped a CPA course sales & compliance tracking platform on Sitefinity (.NET MVC,  Razor, JavaScript, Aptify), 
-      authoring custom widgets that automated 20 hours per week of compliance reporting for CPAs.`,
-      `Led the front-end redesign of the Delta Museum site on Sitefinity (.NET MVC,
-       Razor, JavaScript), delivering responsive widget library that reduced editor
-       publishing time by 80%.`,
-      `Led front-end architecture for an HR/Payroll Management System (React, Redux), 
-       shipping 100+ modules used by unlimited employees across large client organizations.`,
-      `Optimized Navitaire flight API integration in Java/IntelliJ, cutting average response time from minutes to seconds 
-      and eliminating hidden errors on peak booking traffic.`,
-      `Engineered the customer-management front end for a hotel CMS in React/Redux/Next.js, 
-      supporting hunderds of properties and daily active users.`,
-      `Architected and shipped a passenger flight management system (Angular,
-      NgRx, RxJS, .NET Core, MS SQL),  scaling to 10,000+ concurrent users.`,
-      `Designed, built, and maintained an environmental auditing platform (Angular,
-      NgRx, RxJS, .Net Core, MS SQL) 
-      used by hundreds of field auditors to process yearly.`,
+      `Served as de facto front-end lead on a 2-year HR/Payroll Management System build (React,
+      Redux), shipping 100+ modules deployed across enterprise client organizations. Learned
+      React on the job and grew into ownership of the codebase as other developers rotated on
+      and off, including onboarding and mentoring a junior developer through his ramp-up.`,
+      `Architected and shipped a passenger flight management system (Angular, NgRx, RxJS,
+      .NET Core, MS SQL) scaling to 10,000+ concurrent users, and optimized the underlying
+      Navitaire flight API integration — reducing average response time from minutes to seconds
+      and eliminating silent failures during peak booking traffic.`,
+      `Built and shipped a CPA course sales and compliance tracking platform on Sitefinity (.NET
+      MVC, Razor, JavaScript, Aptify), authoring custom widgets that automated 20 hours per
+      week of compliance reporting.`,
+      `Additional client work: led the front-end redesign of the Delta Museum Sitefinity site
+      (responsive widget library that cut editor publishing time by 80%) and designed an
+      environmental auditing platform (Angular, NgRx, .NET Core, MS SQL) used by hundreds of
+      field auditors to process thousands of compliance audits annually.`,
     ],
   },
   {
@@ -66,9 +66,8 @@ export const experience = [
     start: "08/2016",
     end: "07/2018",
     bullets: [
-      `Designed, built, and maintained a Time & Resource Management System  (.NET
-       MVC, Razor, JavaScript, MS SQL) 
-      replacing legacy workflow for unlimited users.`,
+      `Designed, built, and maintained a Time & Resource Management System (.NET MVC, Razor, JavaScript, MS SQL), 
+      replacing a legacy workflow system used daily across the organization.`,
       `Delivered an Automotive Inventory Tool (Angular.js, .NET Core, MS SQL) 
       that consolidated inventory across entire dealerships and reduced lookup time by 80%.`,
     ],
@@ -94,8 +93,8 @@ export const experience = [
     start: "03/2014",
     end: "06/2015",
     bullets: [
-      `Built and tested internal healthcare management apps (ASP.NET 4.0/4.5, MS SQL 2014) 
-      used for patient intake, claims processing.`,
+      `Built and tested internal healthcare management apps (ASP.NET 4.0/4.5, MS SQL 2014)
+      supporting patient intake, claims processing, and provider records workflows.`,
       `Delivered N-tier features end-to-end (Services, DTO, BLL, DAL, stored procs), shipping multiple features into production.`,
     ],
   },
@@ -116,34 +115,78 @@ export const experience = [
 
 export const education = [
   {
-    degree: 'Bachelor of IT Programming',
-    school: 'American Intercontinental University',
-    location: 'Hoffman Estates, IL',
-    start: '03/2007',
-    end: '02/2008',
+    degree: "Bachelor of IT Programming",
+    school: "American Intercontinental University",
+    location: "Hoffman Estates, IL",
+    start: "03/2007",
+    end: "02/2008",
   },
   {
-    degree: 'Associate of Business Administration',
-    school: 'American Intercontinental University',
-    location: 'Hoffman Estates, IL',
-    start: '02/2005',
-    end: '02/2007',
+    degree: "Associate of Business Administration",
+    school: "American Intercontinental University",
+    location: "Hoffman Estates, IL",
+    start: "02/2005",
+    end: "02/2007",
   },
-]
+];
 
 export const skills = {
   Programming: [
-    'C#', 'VB', 'ASP.Net', 'MVC', 'Razor', 'T-SQL', 'Web API', 'XML',
-    'Bootstrap', 'JavaScript', 'TypeScript', 'Sass/SCSS', 'jQuery',
-    'React', 'Redux', 'Angular', 'RxJS', 'NgRx', '.NET', 'Entity Framework',
-    'Angular UI', 'Ionic', 'Java', 'Python',
+    "React 19",
+    "Redux",
+    "Angular 20",
+    "RxJS",
+    "NgRx",
+    ".NET 10",
+    ".NET Core",
+    ".Net Framework",
+    "Entity Framework",
+    "Web API",
+    "Minimul API",
+    "Angular UI",
+    "Material UI",
+    "Ionic",
+    "C#",
+    "VB",
+    "ASP.Net",
+    "MVC",
+    "Razor",
+    "T-SQL",
+    "Bootstrap",
+    "JavaScript",
+    "Typescript",
+    "Sass/SCSS",
+    "Java",
+    "Python",
   ],
   Tools: [
-    'Visual Studio', 'VS Code', 'Azure App Service','Azure Blob Storage','GitHub', 'Git','Azure DevOps', 'Team Explorer', 'CLI', 'IntelliJ IDEA', 'IIS',
-    'Telerik', 'Telerik Charts', 'Kendo UI', 'Material UI', 'Sitefinity', 'nopCommerce', 'Shopify, OpenAI, Claude Code, Vercel',
+    "Visual Studio",
+    "VS Code",
+    "Claude Code",
+    "Azure App Service",
+    "Azure Blob Storage",
+    "GitHub",
+    "Git",
+    "Azure DevOps",
+    "Team Explorer",
+    "CLI",    
+    "IIS",
+    "Telerik",
+    "Telerik Charts",
+    "Kendo UI",
+    "Material UI",
+    "Sitefinity",
+    "nopCommerce",
+    "Shopify, OpenAI,  Vercel",
+    "IntelliJ IDEA"
   ],
-  Databases: ['MS SQL Server', 'Azure SQL', 'Supabase PostgresSql', 'Relational DB Design'],
-}
+  Databases: [
+    "MS SQL Server",
+    "Azure SQL",
+    "Supabase PostgresSql",
+    "Relational DB Design",
+  ],
+};
 
 export const petProjects = [
   {
@@ -159,17 +202,19 @@ export const petProjects = [
   {
     name: "Ecommerce Projects",
     url: "https://gnarlysidewalks.com",
-    description: "Developed with Shopify. All product images created with Midjourney",
+    description:
+      "Developed with Shopify. All product images created with Midjourney",
     start: "01/2023",
     end: "Present",
   },
 ];
 
-export const recentCourses = [{
-  title:'MCP Servers Made Easy with Python and OpenAI Agents',
-  link: mcpCertPdf
-},
-{
-  title:'Vibe Coding Claude Code Workshop'
-}
-]
+export const recentCourses = [
+  {
+    title: "MCP Servers Made Easy with Python and OpenAI Agents",
+    link: mcpCertPdf,
+  },
+  {
+    title: "Vibe Coding Claude Code Workshop",
+  },
+];
