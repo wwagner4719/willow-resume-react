@@ -9,7 +9,7 @@ import PetProjects from './components/sections/PetProjects'
 import RecentCourses from './components/sections/RecentCourses'
 import DownloadButton from './components/DownloadButton'
 import References from './components/sections/References'
-import ReferencesForm from './components/ReferencesForm'
+// import ReferencesForm from './components/ReferencesForm'
 
 export default function App() {
   return (
@@ -31,7 +31,7 @@ export default function App() {
               <PetProjects />
               <RecentCourses />
               <References />
-              <ReferencesForm />
+              {/* <ReferencesForm /> */}
             </>
           }
         />
